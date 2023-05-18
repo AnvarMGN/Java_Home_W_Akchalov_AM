@@ -20,7 +20,6 @@ public class Task_1{
         addContact("Лавров", 123, phoneBook);
         printContact(phoneBook);
     }
-    
        
     static void addContact(String key, int value, Map<String, List<Integer>> map){
         if (map.containsKey(key)) {
