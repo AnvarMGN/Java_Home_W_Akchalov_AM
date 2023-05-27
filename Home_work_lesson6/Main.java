@@ -38,8 +38,8 @@ public class Main {
         Laptop laptop5 = new Laptop("MSI", "Pulse GL66 12UEK-289XRU", 
         "non", "Gray", 16, 512);
         
-        Set<Laptop> laptops = new HashSet<>(
-            Arrays.asList(laptop1, laptop2, laptop3, laptop4, laptop5));
+        Set<Laptop> laptops = new HashSet<>(Arrays.asList(laptop1, laptop2, laptop3, 
+        laptop4, laptop5));
         
         Laptop findLaptop = new Laptop();
 

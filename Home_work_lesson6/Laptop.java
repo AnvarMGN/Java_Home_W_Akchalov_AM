@@ -40,7 +40,8 @@ public class Laptop {
 
     @Override
     public String toString(){
-        return "Производитель: " + firm + ", Модель: " + model + ", ОС: "  + os + ", Цвет: " + color + ", ОЗУ(Гб): " + ramMemory + ", Объём ЖД: " + hardDiskCapacity + "\n";
+        return "Производитель: " + firm + ", Модель: " + model + ", ОС: "  + os + 
+        ", Цвет: " + color + ", ОЗУ(Гб): " + ramMemory + ", Объём ЖД: " + hardDiskCapacity + "\n";
     }
     
     // поиск ноутбука по нескольким критериям
